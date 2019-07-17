@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		1BC7B91F22DE2E200028533F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7B91E22DE2E200028533F /* main.cpp */; };
+		1BC7B92722DE2E730028533F /* Ent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7B92522DE2E730028533F /* Ent.cpp */; };
+		1BC7B92A22DE2ECD0028533F /* Maze.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7B92822DE2ECD0028533F /* Maze.cpp */; };
+		1BC7B92D22DE2F190028533F /* Monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7B92B22DE2F190028533F /* Monster.cpp */; };
+		1BC7B93022DE2F450028533F /* UrukHai.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC7B92E22DE2F450028533F /* UrukHai.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		1BC7B91B22DE2E200028533F /* Monster Maze */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Monster Maze"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BC7B91E22DE2E200028533F /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		1BC7B92522DE2E730028533F /* Ent.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Ent.cpp; sourceTree = "<group>"; };
+		1BC7B92622DE2E730028533F /* Ent.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Ent.hpp; sourceTree = "<group>"; };
+		1BC7B92822DE2ECD0028533F /* Maze.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Maze.cpp; sourceTree = "<group>"; };
+		1BC7B92922DE2ECD0028533F /* Maze.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Maze.hpp; sourceTree = "<group>"; };
+		1BC7B92B22DE2F190028533F /* Monster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Monster.cpp; sourceTree = "<group>"; };
+		1BC7B92C22DE2F190028533F /* Monster.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Monster.hpp; sourceTree = "<group>"; };
+		1BC7B92E22DE2F450028533F /* UrukHai.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = UrukHai.cpp; sourceTree = "<group>"; };
+		1BC7B92F22DE2F450028533F /* UrukHai.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = UrukHai.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				1BC7B91E22DE2E200028533F /* main.cpp */,
+				1BC7B92522DE2E730028533F /* Ent.cpp */,
+				1BC7B92622DE2E730028533F /* Ent.hpp */,
+				1BC7B92822DE2ECD0028533F /* Maze.cpp */,
+				1BC7B92922DE2ECD0028533F /* Maze.hpp */,
+				1BC7B92B22DE2F190028533F /* Monster.cpp */,
+				1BC7B92C22DE2F190028533F /* Monster.hpp */,
+				1BC7B92E22DE2F450028533F /* UrukHai.cpp */,
+				1BC7B92F22DE2F450028533F /* UrukHai.hpp */,
 			);
 			path = "Monster Maze";
 			sourceTree = "<group>";
@@ -118,7 +138,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BC7B92D22DE2F190028533F /* Monster.cpp in Sources */,
+				1BC7B92A22DE2ECD0028533F /* Maze.cpp in Sources */,
 				1BC7B91F22DE2E200028533F /* main.cpp in Sources */,
+				1BC7B92722DE2E730028533F /* Ent.cpp in Sources */,
+				1BC7B93022DE2F450028533F /* UrukHai.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
