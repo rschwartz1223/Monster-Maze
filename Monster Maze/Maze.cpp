@@ -117,12 +117,11 @@ void Maze::printGrid()
                     foundMonsterToken = m->getToken();
                 }
             }
-            
+          
             if(foundMonster)
             {
                 std::cout << " " << foundMonsterToken << " "; // print the monster that was found
             }
-            
             else if(i==avatarRow && j==avatarCol)
             {
                 std::cout << " " << avatarToken << " "; // print the avatar if it is at this location
