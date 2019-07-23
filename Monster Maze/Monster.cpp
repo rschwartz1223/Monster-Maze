@@ -17,7 +17,7 @@
 Monster::Monster(Maze *maze_ptr, int _row, int _col, char _token) : row(_row), col(_col), token(_token)
 {
     std::cout << "DEBUG: Base Monster constructor here" << std::endl;
-    monsterThread = std::thread( &Monster::move, this, maze_ptr ,1, 10 ); // WORKS without lambda functions
+    monsterThread = std::thread( &Monster::move, this, maze_ptr ,1, 10 );
 }
 
 Monster::~Monster()
